@@ -122,6 +122,23 @@ GenerateClassCluster=0
 DocumentUniqueId=BFSVMSNP
 
 [Document5]
+DocumentPath=A3000_16MB_Glue.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=UUXNNUPM
+
+[Document6]
 DocumentPath=A3000_16MB.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -138,7 +155,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=IVVXBSFL
 
-[Document6]
+[Document7]
 DocumentPath=A3000_16MB_M2.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -155,7 +172,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=XTPQHIJQ
 
-[Document7]
+[Document8]
 DocumentPath=A3000_16MB_M3.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -172,7 +189,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=DICOHWJC
 
-[Document8]
+[Document9]
 DocumentPath=A3000_16MB_M4.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -190,31 +207,31 @@ GenerateClassCluster=0
 DocumentUniqueId=CHJPPFBO
 
 [Parameter1]
-Name=Sch_RevNo
+Name=BOM_RevNo
 Value=1.0
 
 [Parameter2]
-Name=Sch_releaseDate
-Value=2023
-
-[Parameter3]
-Name=Project_Title
-Value=A3000_16MB
-
-[Parameter4]
-Name=ProjectName
-Value=A3000_16MB
-
-[Parameter5]
-Name=PCB_RevNo
-Value=1.0
-
-[Parameter6]
 Name=Engineer_Name
 Value=Codion Ltd
 
+[Parameter3]
+Name=PCB_RevNo
+Value=1.0
+
+[Parameter4]
+Name=Project_Title
+Value=A3000_16MB
+
+[Parameter5]
+Name=ProjectName
+Value=A3000_16MB
+
+[Parameter6]
+Name=Sch_releaseDate
+Value=2023
+
 [Parameter7]
-Name=BOM_RevNo
+Name=Sch_RevNo
 Value=1.0
 
 [Configuration1]
