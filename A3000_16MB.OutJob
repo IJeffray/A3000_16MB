@@ -15,13 +15,13 @@ LifeCycleDefinitionGUID=
 RevisionNamingSchemeGUID=
 
 [OutputGroup1]
-Name=A3000_4MB.OutJob
+Name=A3000_16MB.OutJob
 Description=
 TargetOutputMedium=Folder Structure
-VariantName=STD
+VariantName=[No Variations]
 VariantScope=1
 CurrentConfigurationName=
-TargetPrinter=Lexmark T652
+TargetPrinter=HP 5550DN
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputMedium1=Print Job
 OutputMedium1_Type=Printer
@@ -97,7 +97,7 @@ ShowComponentParameters2=1
 GlobalBookmarks2=0
 PDFACompliance2=Disabled
 PDFVersion2=Default
-OutputFilePath3=G:\AcornDev\MyARM3\ARM3\Manufacturing Data\ARM2toARM3Adapter_VariantName_Rev1.1\
+OutputFilePath3=C:\Users\ian\Documents\A3000_16MB\Manufacturing Data\A3000_16MB_VariantName_Rev1.0\
 ReleaseManaged3=0
 OutputBasePath3=Manufacturing Data\
 OutputPathMedia3==ProjectName+'_'+VariantName+'_Rev'+PCB_RevNo
@@ -114,7 +114,7 @@ OpenOutput3=0
 [GeneratedFilesSettings]
 RelativeOutputPath2=C:\SMS_Ltd\Projects\Calcivis Calibration\Altium\Calcivis_Calibration_Board\Manufacturing Data\Calcivis_Calibration_Board_VariantName_Rev0.1\
 OpenOutputs2=0
-RelativeOutputPath3=G:\AcornDev\MyARM3\ARM3\Manufacturing Data\ARM2toARM3Adapter_VariantName_Rev1.1\
+RelativeOutputPath3=C:\Users\ian\Documents\A3000_16MB\Manufacturing Data\A3000_16MB_VariantName_Rev1.0\
 OpenOutputs3=0
 AddToProject3=0
 TimestampFolder3=0
