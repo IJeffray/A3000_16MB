@@ -1,6 +1,6 @@
 # Acorn A3000 16MB RAM board
 
-March 2023
+May 2023
 
 
 ![3D View](Generated/A3000_16MB_3D_View.PNG)
