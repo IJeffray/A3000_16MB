@@ -54,6 +54,23 @@ ReleaseFolderPath=[OutputPath]
 ReleaseZipPath=[OutputPath][ProjectName].zip
 
 [Document1]
+DocumentPath=C:\Users\IanJ\Documents\AltiumLL\SamacSys.SchLib
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=NGLTGAHM
+
+[Document2]
 DocumentPath=Acorn.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -70,7 +87,24 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=BVGBGODO
 
-[Document2]
+[Document3]
+DocumentPath=C:\Users\IanJ\Documents\AltiumLL\SamacSys.PcbLib
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=MPRJBCLL
+
+[Document4]
 DocumentPath=Acorn.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -87,7 +121,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=MPCYBHBH
 
-[Document3]
+[Document5]
 DocumentPath=A3000_16MB.OutJob
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -104,7 +138,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document4]
+[Document6]
 DocumentPath=A3000_16MB.pcbdoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -121,7 +155,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=BFSVMSNP
 
-[Document5]
+[Document7]
 DocumentPath=A3000_16MB_Glue.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -138,7 +172,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=UUXNNUPM
 
-[Document6]
+[Document8]
 DocumentPath=A3000_16MB.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -155,7 +189,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=IVVXBSFL
 
-[Document7]
+[Document9]
 DocumentPath=A3000_16MB_M2.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -172,7 +206,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=XTPQHIJQ
 
-[Document8]
+[Document10]
 DocumentPath=A3000_16MB_M3.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -189,7 +223,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=DICOHWJC
 
-[Document9]
+[Document11]
 DocumentPath=A3000_16MB_M4.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -205,6 +239,39 @@ ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=CHJPPFBO
+
+[ProjectVariant1]
+UniqueID=0D76A037-AC70-406B-B392-B4B61A4982D4
+Description=JLCPCB_Assy
+AllowFabrication=0
+ParameterCount=0
+VariationCount=25
+Variation1=Designator=J3|UniqueId=\IJKHOLPL|Kind=1|AlternatePart= 
+Variation2=Designator=J2|UniqueId=\PXIEVUYR|Kind=1|AlternatePart= 
+Variation3=Designator=J1|UniqueId=\AIXPNHKY|Kind=1|AlternatePart= 
+Variation4=Designator=PL1|UniqueId=\JDCSYMYE|Kind=1|AlternatePart= 
+Variation5=Designator=SK1|UniqueId=\AHBHSKMJ|Kind=1|AlternatePart= 
+Variation6=Designator=U1|UniqueId=\NWXHZSEQ|Kind=1|AlternatePart= 
+Variation7=Designator=U2|UniqueId=\UNKIPXSA|Kind=1|AlternatePart= 
+Variation8=Designator=IC71|UniqueId=\DJZUXNTK|Kind=1|AlternatePart= 
+Variation9=Designator=IC39|UniqueId=\MZDWUKOO|Kind=1|AlternatePart= 
+Variation10=Designator=RST_IN|UniqueId=\EAVHPBAA|Kind=1|AlternatePart= 
+Variation11=Designator=SK2|UniqueId=\MAIORGJK|Kind=1|AlternatePart= 
+Variation12=Designator=U21|UniqueId=\YHOMWHYI|Kind=1|AlternatePart= 
+Variation13=Designator=U22|UniqueId=\SUZOSCTZ|Kind=1|AlternatePart= 
+Variation14=Designator=SK3|UniqueId=\YQEUGWAL|Kind=1|AlternatePart= 
+Variation15=Designator=U31|UniqueId=\MEWUBHQE|Kind=1|AlternatePart= 
+Variation16=Designator=U32|UniqueId=\PAHQDQDT|Kind=1|AlternatePart= 
+Variation17=Designator=SK4|UniqueId=\ICWRQSRB|Kind=1|AlternatePart= 
+Variation18=Designator=U41|UniqueId=\CQYIIANK|Kind=1|AlternatePart= 
+Variation19=Designator=U42|UniqueId=\XCOXSTCK|Kind=1|AlternatePart= 
+Variation20=Designator=C7|UniqueId=\KKCVHFCX|Kind=1|AlternatePart= 
+Variation21=Designator=C8|UniqueId=\XLYEEPUD|Kind=1|AlternatePart= 
+Variation22=Designator=C13|UniqueId=\TTQGZAAX|Kind=1|AlternatePart= 
+Variation23=Designator=C101|UniqueId=\PLGJJGCQ|Kind=1|AlternatePart= 
+Variation24=Designator=IC56|UniqueId=\DETUUCBL|Kind=1|AlternatePart= 
+Variation25=Designator=IC4|UniqueId=\RGHXLHAY|Kind=1|AlternatePart= 
+ParamVariationCount=0
 
 [GeneratedDocument1]
 DocumentPath=Project Outputs for A3000_16MB\A3000_16MB.EXTREP
@@ -1331,9 +1398,9 @@ UpdateVariants=1
 UpdateToLatestRevision=1
 PartTypes=0
 ComponentLibIdentifierKind0=Library Name And Type
-ComponentLibraryIdentifier0=Acorn.SchLib
-ComponentDesignItemID0=DRAM_1MX16_SOJ
-ComponentSymbolReference0=DRAM_1MX16_SOJ
+ComponentLibraryIdentifier0=SamacSys.SchLib
+ComponentDesignItemID0=CRCW040210K0FKEDHP
+ComponentSymbolReference0=CRCW040210K0FKEDHP
 ComponentUpdate0=1
 ComponentIsDeviceSheet0=0
 FullReplace=1
@@ -1349,22 +1416,36 @@ RemoveParameters=0
 AddModels=1
 RemoveModels=1
 UpdateCurrentModels=1
-ParameterName0=Comment
+ParameterName0=Arrow Part Number
 ParameterUpdate0=1
-ParameterName1=Component Kind
+ParameterName1=Arrow Price/Stock
 ParameterUpdate1=1
-ParameterName2=Description
+ParameterName2=Comment
 ParameterUpdate2=1
-ParameterName3=Footprint
+ParameterName3=Component Kind
 ParameterUpdate3=1
-ParameterName4=Library Reference
+ParameterName4=Datasheet Link
 ParameterUpdate4=1
-ParameterName5=Value
+ParameterName5=Description
 ParameterUpdate5=1
+ParameterName6=Height
+ParameterUpdate6=1
+ParameterName7=LCSC Part #
+ParameterUpdate7=1
+ParameterName8=Library Reference
+ParameterUpdate8=1
+ParameterName9=Manufacturer_Name
+ParameterUpdate9=1
+ParameterName10=Manufacturer_Part_Number
+ParameterUpdate10=1
+ParameterName11=Mouser Part Number
+ParameterUpdate11=1
+ParameterName12=Mouser Price/Stock
+ParameterUpdate12=1
 ModelTypeGroup0=PCBLIB
 ModelTypeUpdate0=1
 ModelType0=PCBLIB
-ModelName0=SOJ-42
+ModelName0=RESC1005X40N
 ModelUpdate0=1
 
 [DatabaseUpdateOptions]
