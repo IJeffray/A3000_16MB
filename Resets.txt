@@ -1,0 +1,15 @@
+ERST* - an "early reset", R/C feeds schmitt to raise this on power-on, which then starts charging the 'normal' IOC POR R/C.   The time is split 50% of the normal R/C startup time for POR.
+This is fed in to pin9 of IC71 glue - presumably this is the "true" reset for the clock-fettling glue.
+This also feeds IC65, the S548* latches for VIDC clock/polarity selection - essentially irrelevant to us as it doesn't exist on A3000.
+
+RST* - Normal reset (IOC holds low until POR) and the "manual" reset function from the keyboard reset button / POST header - the podules and rs232 are the only other user of RST* directly on A540.
+This is inverted by IC3 to feed IC4 pin14 and IC71 pin 8 (glue logic 'RST1').
+
+MRESET - Memory/Master reset - this is the reset signal to every MEMC and inverted by IC52 to make MRESET*
+
+MRESET* - Memory/Master reset (inverted) - to ARM3 and the 12/8MHz bridging glue (IC21/IC66) [Until we have 'Fast A3000' implemented, this glue doesn't exist on A3000]
+(note that on A540 with ARM3, this is active low, but for A3000 with ARM2 we just use MRESET)
+
+
+
+On A3000, ARM and MEMC are directly linked by a track, so our strategy is to feed MRESET back DOWN the MEMC plug, lift IC47 pin 12 and use that to feed our board instead - this also means we don't need to invert RST* to RST as we receive RST.
