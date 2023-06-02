@@ -1,13 +1,16 @@
 # Acorn A3000 16MB RAM board
 
-May 2023
+June 2023
 
 
 ![3D View](Generated/A3000_16MB_3D_View.PNG)
 
 This is an UNFINISHED Work-in-progress implementation of a 16MB RAM upgrade for Acorn A3000 machines.
 It will require two PALs to be lifted/copied from the A540 - work in progress to create implementations to program in to new parts.
-This is currently essentially no more than a "progressed idea" with lots still to do!
+
+This has not yet been built or tested.
+
+![PDF Schematic](Generated/A3000_16MB_Schematic.PDF)
 
 
 ## Licence
