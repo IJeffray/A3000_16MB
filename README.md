@@ -10,8 +10,6 @@ A 16MB RAM upgrade for Acorn A3000 machines.  Two PALs (IC39,IC71) are copies of
 This has been built and tested, with some design errors and PCB-level errors noted, though proven functional to a degree.
 The updated/corrected design has not yet been built or tested.
 
-![PDF Schematic](Generated/A3000_16MB_Schematic.PDF)
-
 
 ## Licence
 
