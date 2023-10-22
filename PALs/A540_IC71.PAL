@@ -1,0 +1,37 @@
+;$GALMODE REGISTERED
+
+chip A540_IC71 GAL16V8A
+
+CLK=1 REF1=2 REF2=3 REF3=4 REF4=5 SResetn=7 RST=8 Erstn=9 GND=10 /OE=11 NC12_Srst=12 
+NC13_B=13 NC14_A=14 NC15_BrfW=15 EN4=16 EN3=17 EN2=18 EN1=19 VCC=20 
+
+@ues 0000000000000000
+@ptd unused
+
+equations
+
+/EN1 := NC12_Srst +                                                   /NC14_A * /NC13_B
+EN1.oe = OE
+
+/EN2 := NC12_Srst + REF1 * REF2 * /NC14_A * /NC13_B + /REF1 * /REF2 * /NC14_A * /NC13_B
+EN2.oe = OE
+
+/EN3 := NC12_Srst + REF1 * REF3 * /NC14_A * /NC13_B + /REF1 * /REF3 * /NC14_A * /NC13_B
+EN3.oe = OE
+
+/EN4 := NC12_Srst + REF1 * REF4 * /NC14_A * /NC13_B + /REF1 * /REF4 * /NC14_A * /NC13_B
+EN4.oe = OE
+
+; The following are no-connects... some used as temp registers it seems?
+
+/NC15_BrfW := /REF1
+NC15_BrfW.oe = OE
+
+/NC14_A := NC13_B
+NC14_A.oe = OE
+
+/NC13_B := /NC14_A
+NC13_B.oe = OE
+
+/NC12_Srst := /Erstn + /SResetn * /RST
+NC12_Srst.oe = OE

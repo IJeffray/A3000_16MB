@@ -1,0 +1,37 @@
+;$GALMODE MEDIUM
+
+chip A540_IC39 GAL16V8A
+
+A25=1 A24=2 A23=3 A22=4 A12=7 A7=8 nRW=9 GND=10 /nc11=11 M4A7=12 M3A7=13 
+M2A7=14 M1A7=15 M4A22=16 M3A22=17 M2A22=18 M1A22=19 VCC=20 
+
+@ues 0000000000000000
+@ptd unused
+
+equations
+
+/M1A22 = /A25 * /A22 + A24 * /A22 + /A23 * /A22
+M1A22.oe = vcc
+
+/M2A22 = /A22 + /A24 * A25 * A23
+M2A22.oe = vcc
+
+/M3A22 = /A25 * /A22 + A24 * /A22 + /A24 * A25 * /A23 + /A24 * A25 * A22
+M3A22.oe = vcc
+
+/M4A22 = /A22 + /A24 * A25 * /A23
+M4A22.oe = vcc
+
+/M1A7 = /A25 * /A7 + /A24 * /A7 + /A23 * /A7 + /A7 * /nRW + /A12 * /A7
+M1A7.oe = vcc
+
+/M2A7 = /A7 + A24 * A25 * A23 * A12 * nRW
+M2A7.oe = vcc
+
+/M3A7 = /A25 * /A7 + /A24 * /A7 + /A23 * /A7 + /A7 * /nRW + A24 * A25 * A23 * /A12 * nRW + A24 * A25 * A23 * A7 * nRW
+M3A7.oe = vcc
+
+/M4A7 = /A7 + A24 * A25 * A23 * /A12 * nRW
+M4A7.oe = vcc
+
+; pin6(A13) and pin5(A14) appear unused!
