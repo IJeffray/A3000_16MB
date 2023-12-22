@@ -1,6 +1,6 @@
 # Acorn A3000 16MB RAM board
 
-October 2023
+December 2023
 
 
 ![3D View](Generated/A3000_16MB_3D_View.PNG)
@@ -9,7 +9,7 @@ A 16MB RAM upgrade for Acorn A3000 machines.  Two PALs (IC39,IC71) are copies of
 
 The first spin of the design has been built and tested, with some design errors and PCB-level errors noted, though proven functional and reliable under regular use and under memory stress test situations.
 
-The updated/corrected design has not yet been built or tested.
+The updated/corrected design has now been validated and appears reliable.
 
 
 ## Licence
